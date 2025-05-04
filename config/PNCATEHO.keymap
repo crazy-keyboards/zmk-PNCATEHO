@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define _ &kp
+
 &lt { quick_tap_ms = <200>; };
 
 &mt { quick_tap_ms = <200>; };
@@ -19,16 +21,16 @@
         default_layer {
             label = "default";
             bindings = <
-&none  &none  &none  &none
-&none  &none  &none  &none
-                     &mo 1  &mo 2
+_ LS(F10)   _ LS(F11)   _ F11         _ F10
+_ F9        _ LS(F5)    _ LC(LS(F5))  _ F5
+                        &mo 1         &mo 2
             >;
         };
 
         lower_layer {
             label = "lower";
             bindings = <
-&none  &none  &none  &none
+_ F12  _ LC(MINUS)  _ LC(LS(MINUS))  _ LC(F1)
 &none  &none  &none  &none
                      &trans  &mo 3
             >;
@@ -37,9 +39,9 @@
         raise_layer {
             label = "raise";
             bindings = <
-&none  &none  &none  &none
-&none  &none  &none  &none
-                     &mo 3  &trans
+_ F7      _ LC(LS(C))   &none        _ LC(F5)
+_ LA(F9)  _ LC(LA(W))   _ LC(LA(C))  _ LS(F9)
+                        &mo 3        &trans
             >;
         };
 
