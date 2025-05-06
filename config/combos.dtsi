@@ -1,0 +1,19 @@
+/*                  KEY POSITIONS
+ ╭─────────────────╮
+ │ LT3 LT2 LT1 LT0 │
+ │ LB3 LB2 LB1 LB0 │
+ ╰───╮     LH1 LH0 │
+     ╰─────────────╯     */
+
+#include "zmk-helpers/key-labels/picateho_macropad.h"
+
+#define COMBO_TERM_FAST 18
+#define COMBO_TERM_SLOW 30
+
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 50
+
+ZMK_COMBO(cm_enter,
+    &kp ESC,
+    LT0 LT0,
+    0)
