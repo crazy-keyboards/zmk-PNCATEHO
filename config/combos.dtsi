@@ -1,9 +1,9 @@
-/*                  KEY POSITIONS
- ╭─────────────────╮
- │ LT3 LT2 LT1 LT0 │
- │ LB3 LB2 LB1 LB0 │
- ╰───╮     LH1 LH0 │
-     ╰─────────────╯     */
+//*                  KEY POSITIONS
+// ╭─────────────────╮
+// │ LT3 LT2 LT1 LT0 │
+// │ LB3 LB2 LB1 LB0 │
+// ╰───╮     LH1 LH0 │
+//     ╰─────────────╯     */
 
 #include "zmk-helpers/key-labels/pncateho_macropad.h"
 
