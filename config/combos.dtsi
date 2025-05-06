@@ -1,9 +1,10 @@
-/*                  KEY POSITIONS
- ╭─────────────────╮
- │ LT3 LT2 LT1 LT0 │
- │ LB3 LB2 LB1 LB0 │
- ╰───╮     LH1 LH0 │
-     ╰─────────────╯     */
+/*                                      PNCATEHO KEY MATRIX / LAYOUT MAPPING
+
+  ╭────────────────────╮ ╭─────────────────────╮
+  │  0   1   2   3     │ │ LT3 LT2 LT1 LT0     │
+  │  4   5   6   7     │ │ LB3 LB2 LB1 LB0     │
+  ╰──────────╮   8   9 │ ╰───────────╮ LH1 LH0 │
+             ╰─────────╯             ╰─────────╯             */
 
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/pncateho_macropad.h"
@@ -37,4 +38,14 @@ ZMK_COMBO(cm_ctrlC,
 ZMK_COMBO(cm_ctrlV,
     &kp LC(V),
     LB1 LB0,
+    0)
+    
+ZMK_COMBO(cm_ctrlESC,
+    &kp ESC,
+    LT3 LT2,
+    0)
+
+ZMK_COMBO(cm_ctrlTab,
+    &kp LC(TAB),
+    LT1 LT0,
     0)
