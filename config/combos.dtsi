@@ -5,7 +5,7 @@
  ╰───╮     LH1 LH0 │
      ╰─────────────╯     */
 
-#include "zmk-helpers/key-labels/picateho_macropad.h"
+#include "zmk-helpers/key-labels/pncateho_macropad.h"
 
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
