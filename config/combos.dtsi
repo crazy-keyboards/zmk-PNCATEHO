@@ -15,6 +15,26 @@
 #define COMBO_IDLE_SLOW 50
 
 ZMK_COMBO(cm_enter,
-    &kp ESC,
-    LT0 LT0,
+    &kp ENTER,
+    LT0 LB0,
+    0)
+
+ZMK_COMBO(cm_ctrlZ,
+    &kp LC(Z),
+    LT3 LB3,
+    0)
+
+ZMK_COMBO(cm_ctrlX,
+    &kp LC(X),
+    LB3 LB2,
+    0)
+
+ZMK_COMBO(cm_ctrlC,
+    &kp LC(C),
+    LB2 LB1,
+    0)
+
+ZMK_COMBO(cm_ctrlV,
+    &kp LC(V),
+    LB1 LB0,
     0)
