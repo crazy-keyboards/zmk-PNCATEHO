@@ -32,7 +32,7 @@ _ F9        _ LS(F5)    _ LC(LS(F5))  _ F5
             label = "lower";
             bindings = <
 _ F12  _ LC(MINUS)  _ LC(LS(MINUS))  _ LC(F1)
-&none  &none  &none  &none
+_ LEFT _ DOWN       _ UP             _ RIGHT
                      &trans  &mo 3
             >;
         };
