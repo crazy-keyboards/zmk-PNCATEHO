@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: crazy-keyboards
+      url-base: https://github.com/crazy-keyboards
   projects:
     - name: zmk
       remote: zmkfirmware
