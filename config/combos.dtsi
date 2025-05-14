@@ -18,39 +18,55 @@
 ZMK_COMBO(cm_enter,
     &kp ENTER,
     LT0 LB0,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlZ,
     &kp LC(Z),
     LT3 LB3,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlX,
     &kp LC(X),
     LB3 LB2,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlC,
     &kp LC(C),
     LB2 LB1,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlV,
     &kp LC(V),
     LB1 LB0,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
     
 ZMK_COMBO(cm_ctrlESC,
     &kp ESC,
     LT3 LT2,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlTab,
     &kp LC(TAB),
     LT1 LT0,
-    0)
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)
 
 ZMK_COMBO(cm_ctrlF4,
     &kp LC(F4),
     LT1 LT0,
-    0)    
+    0,
+    COMBO_TERM_FAST,
+    COMBO_IDLE_FAST)    
