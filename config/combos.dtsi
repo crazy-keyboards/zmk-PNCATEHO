@@ -49,3 +49,8 @@ ZMK_COMBO(cm_ctrlTab,
     &kp LC(TAB),
     LT1 LT0,
     0)
+
+ZMK_COMBO(cm_ctrlF4,
+    &kp LC(F4),
+    LT1 LT0,
+    0)    
