@@ -23,8 +23,8 @@
         default_layer {
             label = "default";
             bindings = <
-dbg_step_goto   dbg_step_out   dbg_step_into   dbg_step_over
 bp_set          dbg_end        dbg_reset       dbg_start
+dbg_step_goto   dbg_step_out   dbg_step_into   dbg_step_over
                                &mo 1           &mo 2
             >;
         };
