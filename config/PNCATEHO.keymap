@@ -19,9 +19,9 @@
         default_layer {
             label = "default";
             bindings = <
-&kp M  &kp B  &kp E  &kp LC(MINUS)
-&kp S  &kp H  &kp I  &kp LC(PLUS)
-                     &kp LC(Z)  &kp LC(Z)
+&kp M  &kp B  &kp E  &kp LCTRL(MINUS)
+&kp S  &kp H  &kp I  &kp LCTRL(PLUS)
+                     &kp LCTRL(Z)  &kp LCTRL(LSHFT(Z)
             >;
         };
 
