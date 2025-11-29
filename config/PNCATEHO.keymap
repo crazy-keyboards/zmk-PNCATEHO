@@ -19,7 +19,7 @@
         default_layer {
             label = "default";
             bindings = <
-&kp M  &kp B  &kp E  &kp LC(PLUS)
+&kp M  &kp B  &kp E  &kp LC(EQUAL)
 &kp S  &kp H  &kp I  &kp LC(MINUS)
                      &kp LC(Z)  &kp LC(LS(Z))
             >;
