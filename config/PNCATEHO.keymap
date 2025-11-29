@@ -21,7 +21,7 @@
             bindings = <
 &kp M  &kp B  &kp E  &kp LCTRL(MINUS)
 &kp S  &kp H  &kp I  &kp LCTRL(PLUS)
-                     &kp LCTRL(Z)  &kp LCTRL(LSHFT(Z)
+                     &kp LCTRL(Z)  &kp LCTRL(LSHFT(Z))
             >;
         };
 
